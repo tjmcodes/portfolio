@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Hubballi', sans-serif;
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.logo {
+  background: transparent;
+  width: 0px;
+  height: 0px;
+  margin: 3% auto 2.5% 10%;
+}
+.navWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  padding-left: 20%;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.navItem {
+  padding: 0 50px;
+  font-size:45px;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1500px;
+  padding: 0 40px;
+}
+
