@@ -7,32 +7,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
-
-  <title>Document</title>
+  <title>Portfolio</title>
 </head>
 <body>
   <header>
-    <div class="logo"></a> <img src="https://cdn.vox-cdn.com/thumbor/mjXOiQBKtkj11B2jklloT9Y3GW4=/0x0:2040x1360/1200x800/filters:focal(866x562:1192x888)/cdn.vox-cdn.com/uploads/chorus_image/image/68827130/sonoslede.0.jpg" alt="logo">
+    <div id="logo">
+      <p>this is where the logo should be</p>
     </div>
     <nav>
-      <ul class="navWrapper">
-        <li class="navItem"><a href="about">About</a></li>
-        <li class="navItem"><a href="portfolio">Portfolio</a></li>
-        <li class="navItem"><a href="skills">Skills</a></li>
-        <li class="navItem"><a href="contact">Contact</a></li>
-      </ul>    
+      <ul class="topMenu">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Subscribe</a></li>
+      </ul>
     </nav>
   </header>
 
+  
+  
   <main>
     <div class="menuSections">
       <div class="aboutSection">
         <section>
           <h1>About</h1> 
           <p>Below are some projects that I enjoyed creating.</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/mrc1MrxpLns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/We7WLAKCuTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/JwPwgKhRG1k?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="Links">
+            <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/mrc1MrxpLns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/We7WLAKCuTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/JwPwgKhRG1k?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </section>   
       </div>
     
@@ -62,7 +67,7 @@
             <input type="text" id="lname" name="lname">
             <input type="submit" id="submit" value="Submit">
           </form> 
-          <p>I  f you have any queries, you can send <a href="mailto:teresa@teresamorini.com">email here.</a></p>
+          <p>I  f you have any queries, you can send <a href="mailto:fakeemail@address.com">email here.</a></p>
         </section>   
       </div>
     </div>
