@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/dist/css/main.css">
   <title>Portfolio</title>
 </head>
 <body>
@@ -16,7 +18,7 @@
     </div>
     <nav>
       <ul class="topMenu">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="#anchorAbout">Home</a></li>
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">Skills</a></li>
         <li><a href="#">Contact</a></li>
@@ -29,48 +31,83 @@
   
   <main>
     <div class="menuSections">
-      <div class="aboutSection">
-        <section>
-          <h1>About</h1> 
-          <p>Below are some projects that I enjoyed creating.</p>
-          <div class="Links">
-            <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/mrc1MrxpLns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/We7WLAKCuTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/JwPwgKhRG1k?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <section id="about" class="about-section">
+        <h1 id="anchorAbout">About</h1> 
+          <div class="container">
+            <p>Below are some projects that I enjoyed creating.</p>
+            <div class="links">
+              <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/mrc1MrxpLns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/We7WLAKCuTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/JwPwgKhRG1k?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>   
           </div>
-        </section>   
-      </div>
-    
-      <div class="portfolioSection">
-        <section>
-          <h1>Portfolio</h1>
-          <p>I hope to put showcase examples of my projects learned at GA here.</p>
-        </section>   
-      </div>
-
-      <div class="skillsSection">
-        <section>
-          <h1>Skills</h1> 
-          <p>Put some icons and images here (hover over text)</p>
-        </section>   
-      </div>
-
-      <div class="contactSection">
-        <section>
-          <h1>Contact</h1> 
-          <p>If you would like to keep updated with news, please subscribe using the form below.</p>
-
-          <form action="subscribe">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname">
-            <input type="submit" id="submit" value="Submit">
-          </form> 
-          <p>I  f you have any queries, you can send <a href="mailto:fakeemail@address.com">email here.</a></p>
-        </section>   
-      </div>
+      </section>
     </div>
+    
+  
+      <section id="portfolio" class="portfolio-section"> 
+        <div class="container">
+          <h1>Portfolio</h1>
+          <p>Showcase examples of projects learned at GA here.</p>
+          <div class="projects">
+            <a href="https://tjmcodes.github.io/Ultimate-Tic-Tac-Toe/" target="_blank"> <img src="https://i.ibb.co/WxJ4R8Q/Screenshot-2022-05-30-at-22-52-14.png" alt="cocktail party app" id="cocktailImage"></a>
+            <a href="https://main--ephemeral-salmiakki-7db874.netlify.app/" target="_blank"> <img src="https://i.ibb.co/FzYwbw2/Screenshot-2022-05-30-at-23-36-07.png" alt="ultimate tic-tac-toe" id="tttImage"></a>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h1>Skills</h1> 
+        <div class="icons">
+          
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />          
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />          
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />       
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" /> 
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" style="background-color: rgba(255, 255, 255, 0.721)"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" />
+          
+          
+          
+          
+          
+          
+        
+        </div>  
+          
+          
+          <p>Put some icons and images here (hover over text animation)</p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container">
+      
+            <h1>Contact</h1> 
+            <p>If you would like to keep updated with news, please subscribe using the form below.</p>
+  
+            <form action="subscribe">
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname">
+              <input type="submit" id="submit" value="Submit">
+            </form> 
+            <p>I  f you have any queries, you can send <a href="mailto:fakeemail@address.com">email here.</a></p>
+      
+        </div>
+      </section>
+    
   </main>
 
   <footer>

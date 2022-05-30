@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Nunito', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+}
+
+$theme-colors: (
+    "light":      #d4d9e1,
+    "dark":       #0b1529,
+    "primary":    #3c38b1,
+    "secondary":  #6763ec,
+    "info":       #9b99e9,
+    "accent1":    #4448a0,
+    "accent2":    #546cd6,
+    "accent3":    #95b6f4,
+    "success":    #1fa966,
+    "warning":    #e2cd1e,
+    "danger":     #f1240e,
+);
+
+$font-weight: (
+  "regular": 400,
+  "medium": 600,
+  "bold": 700,
+);
+
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: map-get($theme-colors, dark);
+  color: map-get($theme-colors, light);
+  font-family: 'Nunito', sans-serif;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  align-self: flex-start;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  background-color: #d63d4a;
+}
+
+nav {
+  display: flex;
+  align-self: center;
+  font-size: 25px;
+}
+
+li {
+  align-items: center;
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  /*
+  border: 1px solid #54a0a2;    
+  background-color: #d63d4a; */
+  font-size: 25px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+
+img {
+  max-width: 50px;
+  max-width: 50px;
+  padding: 5px;
+}
+
+#vid, #cocktailImage {
+  max-width: 500px;
+  max-height: 316px;
+  padding: 5px;
+}
+
+#tttImage {
+  max-width: 500px;
+  max-height: 318px;
+  padding: 5px;
+}
+
+
+
+// div {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center
+// }
+
+div.links {
+  display: flex;
+  direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+}
+
+.container {
+  display: block;
+
+}
+
+.icons {
+  display: block;
+  flex-direction: row;
+}
+
+div.Links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#vid {
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  background-color:#95b6f4;
+  padding: 5px;
+  border: 2px;
+  border-radius: 5px
+}
+
+// #submit {
+//   background-color:#d4d9e1;
+//   padding: 5px;
+// }
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
