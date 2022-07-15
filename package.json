@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmcodes/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjmcodes/portfolio/issues"
+  },
+  "homepage": "https://github.com/tjmcodes/portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}

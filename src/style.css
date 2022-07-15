@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: 'Nunito', sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
@@ -8,9 +12,7 @@
           box-sizing: border-box;
 }
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,19 +80,34 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 50px;
   text-align: center;
+}
+
+div.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 img {
   max-width: 50px;
   max-width: 50px;
   padding: 5px;
+  display: inline;
 }
 
 #vid, #cocktailImage {
@@ -121,13 +138,6 @@ div.links {
   display: block;
 }
 
-.icons {
-  display: block;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
 
 div.Links {
   display: -webkit-box;
@@ -183,4 +193,3 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
-/*# sourceMappingURL=main.css.map */
