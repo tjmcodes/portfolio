@@ -592,10 +592,6 @@ video {
   }
 }
 
-.flex {
-  display: flex;
-}
-
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
@@ -728,10 +724,4 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-@media (min-width: 768px) {
-  .md\:flex {
-    display: flex;
-  }
 }
